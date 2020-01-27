@@ -1,7 +1,8 @@
-def prime number?(numbers)
-   prime.select do |n|
-    n.even?
- if n !=a*b for n>a>1 and n>b>1
-   n>2
- answer = true
-end
+def is_prime(x):
+    if x < 2:
+        return False
+    else:
+        for n in range(2,x):
+            if x % n == 0:
+               return False
+        return True
