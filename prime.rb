@@ -1,10 +1,12 @@
-def prime number?(x)
-  x > 1
-  x.select do |x|
-    x.prime?
-  if x = a*b for x > a && x > b
-   false
-  else 
-   true
- end
+def prime?(value)
+  if value <= 1 || value == 0 || value == 1
+    return false
+  elsif
+    (2..value - 1).each do |i|
+      if value % i == 0
+      return false
+    end
+  end
+end
+true
 end
