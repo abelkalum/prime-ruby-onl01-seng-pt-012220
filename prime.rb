@@ -1,8 +1,9 @@
-def prime?(x):
-    if x < 2:
-        return False
-    else:
-        for n in range(2,x):
-            if x % n == 0:
-               return False
-        return True
+def prime number?(x)
+  x.select do |x|
+    x.prime?
+  if x =a*b for x>a>1 and x>b>1
+   false
+  else 
+   true
+ end
+end
